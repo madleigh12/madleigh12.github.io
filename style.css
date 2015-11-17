@@ -171,7 +171,8 @@ nav a {
 .first{
 	margin-top: 18px;
 }
-#port, #port2, #port3, #port4{
+#port, #port2, 
+#port3, #port4{
 	height:30em;
 	padding: 2em;
 	overflow: hidden;
@@ -189,17 +190,23 @@ nav a {
 	width: auto;
 	display: inline-block;
 }
-#port h2, #port2 h2, #port3 h2, #port4 h2{
+#port h2, #port2 h2, 
+#port3 h2, #port4 h2{
 	letter-spacing: 8px;
 	font-weight: 700;
 }
-#port p, #port2 p, #port3 p, #port4 p{
+#port p, #port2 p, 
+#port3 p, #port4 p{
 	letter-spacing: 4px;
 }
 #port3 img, #port4 img{
 	height:50%;
 	width: auto;
 	display: inline-block;
+}
+#port video, #port2 video{
+	height:100%;
+	position: absolute;
 }
 #misc h2{
 	font-weight: bold;
