@@ -171,91 +171,35 @@ nav a {
 .first{
 	margin-top: 18px;
 }
-#port{
+#port, #port2, #port3, #port4{
 	height:30em;
-	background-color: #796b7a;
 	padding: 2em;
 	overflow: hidden;
 }
-#port div{
+#port, #port3{
+	background-color: #796b7a;
+}
+#port div, #port2 div, 
+#port3 div, #port4 div{
 	text-align: center;
 	height:100%;
 }
-#port img{
+#port img, #port2 img{
 	height:100%;
 	width: auto;
 	display: inline-block;
 }
-#port h2{
+#port h2, #port2 h2, #port3 h2, #port4 h2{
 	letter-spacing: 8px;
 	font-weight: 700;
 }
-#port p{
+#port p, #port2 p, #port3 p, #port4 p{
 	letter-spacing: 4px;
 }
-#port2{
-	height:30em;
-	padding: 2em;
-	overflow: hidden;
-}
-#port2 div{
-	text-align: center;
-	height:100%;
-}
-#port2 img{
-	height:100%;
-	width: auto;
-	display: inline-block;
-}
-#port2 h2{
-	letter-spacing: 8px;
-	font-weight: 700;
-}
-#port2 p{
-	letter-spacing: 4px;
-}
-#port3{
-	height:30em;
-	background-color: #796b7a;
-	padding: 2em;
-	overflow: hidden;
-}
-#port3 div{
-	text-align: center;
-	height:100%;
-}
-#port3 img{
+#port3 img, #port4 img{
 	height:50%;
 	width: auto;
 	display: inline-block;
-}
-#port3 h2{
-	letter-spacing: 8px;
-	font-weight: 700;
-}
-#port3 p{
-	letter-spacing: 4px;
-}
-#port4{
-	height:30em;
-	padding: 2em;
-	overflow: hidden;
-}
-#port4 div{
-	text-align: center;
-	height:100%;
-}
-#port4 img{
-	height:50%;
-	width: auto;
-	display: inline-block;
-}
-#port4 h2{
-	letter-spacing: 8px;
-	font-weight: 700;
-}
-#port4 p{
-	letter-spacing: 4px;
 }
 #misc h2{
 	font-weight: bold;
