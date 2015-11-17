@@ -1,5 +1,5 @@
 body {
-	background-color: #a4a5a4;
+	background-color: #ddc8d5;
 	overflow-x: hidden;
 }
 
@@ -15,9 +15,11 @@ body, html {
 	font-family: 'Wire One', sans-serif;
 	font-size: 2em;
 	letter-spacing: 7px;
-	align: right;
+	color:#666;
 }
-
+a:hover{
+	background-color: orange;
+}
 * { padding: 0; margin: 0; }
 body { font-family: 'Wire One', sans-serif; }
 a { text-decoration: none;  }
@@ -35,6 +37,10 @@ nav a {
 	color: #727272;
 	width: auto;
 	text-align:auto;
+}
+.navbar-custom{
+	padding-top: 0.5em; 
+	background-color: #ddc8d5;
 }
 .navbar-header h4{
 	font-weight: bold;
@@ -214,6 +220,6 @@ footer {
 	font-family: 'Wire One', sans-serif;
 	font-weight: 300;
 	padding-bottom: 2%;
-	background-color: #CECFCE; 
-	color: #727272;
+	background-color: #c1c2c1; 
+	color: #563a46;
 }
