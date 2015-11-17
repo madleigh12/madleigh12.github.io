@@ -1,3 +1,7 @@
+* { 
+	padding: 0; 
+	margin: 0;
+}
 body {
 	background-color: #ddc8d5;
 	overflow-x: hidden;
@@ -15,17 +19,25 @@ body, html {
 	letter-spacing: 7px;
 	color:#666;
 }
-* { padding: 0; margin: 0; }
-body { font-family: 'Wire One', sans-serif; }
-a { text-decoration: none;  }
-li { list-style-type: none; }
+body { 
+	font-family: 'Wire One'
+	sans-serif;
+}
+a { 
+	text-decoration: none;
+}
+li { 
+	list-style-type: none;
+}
 header { 
 	width: 100%; 
 	height: 50px; 
 	margin: auto;
 	background-color: #f37254;
 }
-nav { width: 100%; text-align: left;  }
+nav { 
+	width: 100%; 
+	text-align: left;  }
 nav a { 
 	display: block; 
 	color: #727272;
@@ -38,6 +50,18 @@ nav a {
 }
 .navbar-header h4{
 	font-weight: bold;
+}
+#navbar{
+	margin-left: -7em;
+}
+#navbar a{
+	color:#563a46;
+	font-family: 'Wire One', sans-serif;
+	font-size: 1.1em;
+}
+#navbar a:hover{
+	background-color: #d3b9c9;
+	color: #e8e9e8;
 }
 #title {
 	display: block; 
