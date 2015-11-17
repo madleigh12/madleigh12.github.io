@@ -1,0 +1,219 @@
+body {
+	background-color: #a4a5a4;
+	overflow-x: hidden;
+}
+
+body, html {
+	height: 100%;
+}
+#navigation {
+	background-color: #84596B;
+	background-size: cover;
+}
+
+#navigation .navbar-text {
+	font-family: 'Wire One', sans-serif;
+	font-size: 2em;
+	letter-spacing: 7px;
+	align: right;
+}
+
+* { padding: 0; margin: 0; }
+body { font-family: 'Wire One', sans-serif; }
+a { text-decoration: none;  }
+li { list-style-type: none; }
+
+header { 
+	width: 100%; 
+	height: 50px; 
+	margin: auto;
+	background-color: #f37254;
+}
+nav { width: 100%; text-align: left;  }
+nav a { 
+	display: block; 
+	color: #727272;
+	width: auto;
+	text-align:auto;
+}
+.navbar-header h4{
+	font-weight: bold;
+}
+#title {
+	display: block; 
+	border-bottom: .5px solid #727272;
+	color: #444444;
+	background-color: #f37254;
+	font-size: 16px;
+}
+
+#landing-photo .jumbotron {
+	background-image: url('img/layout/vanCity.jpg');
+	width: 100%;
+	height: 100%;
+	min-height: 700px;
+	background-size: cover;
+	text-align: center;
+	background-size:  100% 100%;
+	padding-top: 70px;
+}
+#landing-photo h2 {
+	color: #563a46;
+	font-family: 'Wire One', sans-serif;
+	font-weight: bold;
+	letter-spacing: 8px;
+	background-color: rgba(206, 207, 206, .4);
+	width: 35%;
+	margin-left: 20%;
+	padding: 5px 0;
+}
+#landing-photo h3 {
+	color: #84596B;
+	font-family: 'Wire One', sans-serif;
+	letter-spacing: 3px;
+	background-color: rgba(206, 207, 206, .4);
+	width: 800px;
+	margin-left: 37%;
+	margin-top: 2%;
+	padding: 10px 0;
+}
+#about-photo .jumbotron {
+	background-image: url('img/layout/madi.jpg');
+	width: 100%;
+	height: 150%;
+	min-height: 850px;
+	background-size: cover;
+	text-align: center;
+	background-size:  100% 100%;
+	padding-top: 70px;
+}
+#about-photo h2 {
+	color: #563a46;
+	font-family: 'Wire One', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	letter-spacing: 8px;
+	width: 50%;
+	margin-top: 10%;
+	margin-left: 23%;
+}
+#about-photo h4 {
+	color: #84596B;
+	font-family: 'Wire One', sans-serif;
+	letter-spacing: 3px;
+	background-color: rgba(206, 207, 206, .8);
+	padding: 5px 7px 5px 7px;
+}
+#ab1{
+	width: 28em;
+	margin-left: 30%;
+	margin-top: 1%;
+	text-align: center;
+}
+#ab2{
+	width: 50em;
+	margin-left: 25%;
+	text-align: left;
+}
+#ab3{
+	width: 35em;
+	margin-left: 45%;
+	text-align: left;
+}
+#ab4{
+	width: 42em;
+	margin-left: 42%;
+	text-align: left;
+}
+#ab5{
+	width: 50.5em;
+	margin-left: 28%;
+	text-align: left;
+}
+#ab6{
+	width: 30em;
+	margin-left: 50%;
+	text-align: center;
+}
+#ab7{
+	background-color: rgba(206, 207, 206, .8);
+	color: #563a46;
+	font-family: 'Wire One', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	letter-spacing: 8px;
+	width: 6em;
+	margin-top: 0%;
+	margin-left: 60%;
+}
+#two_port{
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+	font-family: 'Open Sans', sans-serif;
+}
+#header {
+	padding-bottom: 80px;
+}
+.round-button {
+	position: relative;
+	display: inline-block;
+}
+.round-button img{
+	height: 4em;
+	width: auto;
+	position: relative;
+	display: inline-block;
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+#two_port div{
+	padding: 0.5em 7em 0.5em 7em;
+	background-color: #796b7a;
+}
+#two_port2 h2{
+	font-weight: bold;
+	letter-spacing: 8px;
+}
+#two_port h2{
+	font-weight: bold;
+	letter-spacing: 8px;
+}
+#two_port2 p{
+	letter-spacing: 3px;
+}
+#two_port p{
+	letter-spacing: 3px;
+}
+#two_port2 div{
+	padding: 0.5em 7em 0.5em 7em;
+}
+#two_port, #two_port2{
+	margin-top: -1.7em;
+	padding:5px 7px 5px 7px;
+	text-align: center;
+}
+#two_port, #two_port2 img{
+	display: inline;
+}
+#misc{
+	background-color: #796b7a;
+	text-align: center;
+	margin-left: -2em;
+	margin-right: -2em;
+}
+#misc img{
+	display: inline;
+	height:270px;
+}
+.info{
+	position: relative;
+	top: 50%;
+}
+footer {
+	text-align: center;
+	font-family: 'Wire One', sans-serif;
+	font-weight: 300;
+	padding-bottom: 2%;
+	background-color: #CECFCE; 
+	color: #727272;
+}
