@@ -168,38 +168,49 @@ nav a {
 	padding-top: 15%;
 	padding-bottom: 15%;
 }
-#two_port div{
-	padding: 0.5em 0em 0.5em 5em;
+.first{
+	margin-top: 18px;
+}
+#port{
+	height:30em;
 	background-color: #796b7a;
-	text-align: center;
+	padding: 2em;
 }
-#two_port2 h2{
-	font-weight: bold;
+#port div{
+	text-align: center;
+	height:100%;
+}
+#port img{
+	height:100%;
+	width: auto;
+	display: inline-block;
+}
+#port h2{
 	letter-spacing: 8px;
+	font-weight: 700;
 }
-#two_port h2{
-	font-weight: bold;
+#port p{
+	letter-spacing: 4px;
+}
+#port2{
+	height:30em;
+	padding: 2em;
+}
+#port2 div{
+	text-align: center;
+	height:100%;
+}
+#port2 img{
+	height:100%;
+	width: auto;
+	display: inline-block;
+}
+#port2 h2{
 	letter-spacing: 8px;
+	font-weight: 700;
 }
-#two_port2 p{
-	letter-spacing: 3px;
-}
-#two_port p{
-	letter-spacing: 3px;
-}
-#two_port2 div{
-	padding: 0.5em 5em 0.5em 0em;
-	text-align: center;
-}
-#two_port, #two_port2{
-	margin-top: -1.7em;
-	padding:5px 3px 5px 3px;
-	text-align: center;
-}
-#two_port, #two_port2 img{
-	margin-left: -4%;
-	margin-right: 4%;
-	display: inline;
+#port2 p{
+	letter-spacing: 4px;
 }
 #misc h2{
 	font-weight: bold;
@@ -212,8 +223,8 @@ nav a {
 	margin-right: -1em;
 }
 #misc img{
-	display: inline;
-	height:270px;
+	display: inline-block;
+	height:23.5em;
 }
 .info{
 	position: relative;
