@@ -175,6 +175,7 @@ nav a {
 	height:30em;
 	background-color: #796b7a;
 	padding: 2em;
+	overflow: hidden;
 }
 #port div{
 	text-align: center;
@@ -195,6 +196,7 @@ nav a {
 #port2{
 	height:30em;
 	padding: 2em;
+	overflow: hidden;
 }
 #port2 div{
 	text-align: center;
@@ -212,6 +214,49 @@ nav a {
 #port2 p{
 	letter-spacing: 4px;
 }
+#port3{
+	height:30em;
+	background-color: #796b7a;
+	padding: 2em;
+	overflow: hidden;
+}
+#port3 div{
+	text-align: center;
+	height:100%;
+}
+#port3 img{
+	height:50%;
+	width: auto;
+	display: inline-block;
+}
+#port3 h2{
+	letter-spacing: 8px;
+	font-weight: 700;
+}
+#port3 p{
+	letter-spacing: 4px;
+}
+#port4{
+	height:30em;
+	padding: 2em;
+	overflow: hidden;
+}
+#port4 div{
+	text-align: center;
+	height:100%;
+}
+#port4 img{
+	height:50%;
+	width: auto;
+	display: inline-block;
+}
+#port4 h2{
+	letter-spacing: 8px;
+	font-weight: 700;
+}
+#port4 p{
+	letter-spacing: 4px;
+}
 #misc h2{
 	font-weight: bold;
 	letter-spacing: 8px;
@@ -222,14 +267,11 @@ nav a {
 	text-align: center;
 	margin-left: -1em;
 	margin-right: -1em;
+	padding: 2em;
 }
 #misc img{
 	display: inline-block;
 	height:23.5em;
-}
-.info{
-	position: relative;
-	top: 50%;
 }
 #brand{
 	margin-right: -4em;
