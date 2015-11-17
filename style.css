@@ -215,6 +215,7 @@ nav a {
 #misc h2{
 	font-weight: bold;
 	letter-spacing: 8px;
+	padding-bottom: 0.75em;
 }
 #misc{
 	background-color: #796b7a;
