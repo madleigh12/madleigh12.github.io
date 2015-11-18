@@ -202,6 +202,10 @@ nav a {
 	padding: 2em;
 	overflow: hidden;
 }
+#port div:nth-child(2), #port3 div:nth-child(2),
+#port2 div:first-child, #port4 div:first-child{
+	padding-top: 6%;
+}
 #port, #port3{
 	background-color: #796b7a;
 }
