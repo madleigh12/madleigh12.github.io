@@ -1,6 +1,7 @@
 * { 
 	padding: 0; 
 	margin: 0;
+	font-family: 'Wire One', sans-serif;
 }
 body {
 	background-color: #ddc8d5;
@@ -44,9 +45,9 @@ nav a {
 	width: auto;
 	text-align:auto;
 }
-.navbar-custom{
+.navbar-default{
 	padding-top: 0.5em; 
-	background-color: #ddc8d5;
+	background-color: #aaa1ac;
 }
 .navbar-header h4{
 	font-weight: bold;
@@ -214,13 +215,22 @@ nav a {
 	width: auto;
 	display: inline-block;
 }
-#port h2, #port2 h2, 
-#port3 h2, #port4 h2{
+#port h2, #port3 h2{
+	color:#e8e9e8;
 	letter-spacing: 8px;
 	font-weight: 700;
 }
-#port p, #port2 p, 
-#port3 p, #port4 p{
+#port2 h2, #port4 h2{
+	color:#563a46;
+	letter-spacing: 8px;
+	font-weight: 700;
+}
+#port p, #port3 p{
+	color:#e8e9e8;
+	letter-spacing: 4px;
+}
+#port2 p, #port4 p{
+	color:#563a46;
 	letter-spacing: 4px;
 }
 #port3 img, #port4 img{
@@ -237,6 +247,16 @@ nav a {
 	letter-spacing: 8px;
 	padding-bottom: 0.75em;
 }
+#resume a{
+	color: #563a46;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+#resume{
+	text-align: center;
+	background-color: #9e93a0;
+	padding:0.75em;
+}
 #misc{
 	background-color: #796b7a;
 	text-align: center;
@@ -248,8 +268,55 @@ nav a {
 	display: inline-block;
 	height:23.5em;
 }
+#res3, #res4{
+	padding: 0.5em 4em;
+	overflow: hidden;
+}
+#res3 p, #res4 p{
+	padding: 0.0em 2em;
+	overflow: hidden;
+}
+#res3 ul, #res4 ul{
+	padding: 0.0em 2em;
+	overflow: hidden;
+}
+#res3 h2, #res4 h2{
+	font-weight: 700;
+}
+#res3{
+	background-color: #928594;
+}
+#res4{
+	background-color: #9e93a0;
+}
+#blurb{
+	padding: 0.2em 5em;
+	font-style: italic;
+}
+#class{
+	padding-left: 3em;
+}
 #brand{
 	margin-right: -4em;
+}
+table{
+	width: 100%;
+}
+table tr td:first-child{
+	text-align: left;
+}
+table tr td:nth-child(2){
+	text-align: right;
+}
+#tidbit{
+	list-style-type: square;
+	list-style-position: inside;
+	padding: 0.0em 2em;
+}
+#last_tidbit{
+	list-style-type: square;
+	list-style-position: inside;
+	padding: 0.0em 2em 0.9em;
 }
 footer {
 	text-align: center;
