@@ -279,9 +279,11 @@ nav a {
 #res3 ul, #res4 ul{
 	padding: 0.0em 2em;
 	overflow: hidden;
+	color: #563a46;
 }
 #res3 h2, #res4 h2{
 	font-weight: 700;
+	color: #563a46;
 }
 #res3{
 	background-color: #928594;
