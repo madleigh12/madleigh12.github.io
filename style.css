@@ -247,6 +247,9 @@ nav a {
 	letter-spacing: 8px;
 	padding-bottom: 0.75em;
 }
+#misc img{
+	padding:0.2em;
+}
 #resume a{
 	color: #563a46;
 	font-weight: bold;
