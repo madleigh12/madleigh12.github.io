@@ -2,159 +2,112 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Madison Hicks - Portfolio</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <header id="navigation">
-      <nav class="navbar navbar-default navbar-fixed-top navbar-inner">
-        <div class="container">
-          <div class="navbar-header navbar-right">                
-            <img id="brand" src="img/layout/logo_light.png" height="60px">
-            <h4 class="navbar-text">madison hicks</h4>
+    <ul class="nav">
+      <li class="nav-tab"><a href="index.html">Home</a></li>
+      <li class="nav-tab"><a href="about.html">About</a></li>
+      <li class="nav-tab"><a href="twoDee.html">2D Portfolio</a></li>
+      <li class="nav-tab"><a href="threeDee.html">3D Portfolio</a></li>
+      <li class="nav-tab"><a href="anim.html">Animations</a></li>
+      <li class="nav-tab"><a href="VR.html">VR</a></li>
+      <li class="nav-tab"><a class="active" href="resume.html">Resume</a></li>
+      <li class="brand"><img src="img/logo_light.png"></li>
+    </ul>
+    <section id="resume">
+      <div class="jumbotron">
+        <section id="intro">
+          <h2 class="title">Resume</h2>
+        </section>
+        <section class="resume">
+          <div class="res1">
+            <span class="name">OBJECTIVE</span><br>
+            <p>To find employment where I can enhance my technical skills, prepare for entry into the workforce, and fuel the continued advancement of technology.</p>
           </div>
-          <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-left">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="twodee.html">2D Portfolio</a></li>
-              <li><a href="threedee.html">3D Portfolio</a></li>
-              <li><a href="anim.html">Animations</a></li>
-              <li><a href="resume.html">Resume</a></li>
+          <div class="res2">
+            <span class="name">EDUCATION</span><br>
+            <p>University of Florida -- Gainesville, FL<br>
+              <em>Current GPA – 3.46/ 4.0</em><br>
+              <strong>- Major: Bachelor of Science in Digital Arts and Sciences</strong><em> - Minor in Mathematics</em><span class="date">May 2017</span><br>
+              <span id="quote"><em>“The Digital Arts and Sciences (DAS) degree is a specialized program which integrates engineering and design: a core computer science curriculum with a special emphasis on human-centered computing.”<span></em>
+          </div>
+          <div class="res1">
+            <span class="name">EMPLOYMENT</span><br>
+            <p><strong>Graphic Artist Intern,</strong> <em>TRU Simulation + Training – Charleston, SC</em>
+            <span class="date">June 2016 - August 2016</span></p>
+            <ul>
+              <li>Aided in the development of storyboards for aircraft training</li>
+              <li>Created graphics for proposals and other projects</li>
+              <li>Participated in a summer-long group project with other interns</li>
+            </ul>
+            <p><strong>Intern,</strong> <em>WMB Architecture – Lakeland, FL</em>
+            <span class="date">June 2015 – August 2015</span></p>
+            <ul>
+              <li>Aided Marketing Coordinator with company website design and content as well as editing proposals</li>
+              <li>Worked with architects and designers to complete projects on time</li>
+            </ul>
+            <p><strong>Presidential Wait Staff,</strong> <em>Cacciatore Catering – Gainesville, FL</em>
+            <span class="date">January 2014 – December 2015</span></p>
+            <ul>
+              <li>Serve and assist highly influential and important patrons at official University of Florida functions</li>
+            </ul>
+            <p><strong>Imaging Specialist,</strong> <em>DTI Global – Tampa, FL</em>
+            <span class="date">Summer 2013/ 2014</span></p>
+            <ul>
+              <li>Assisted in the organization and completion of various projects while on a deadline</li>
             </ul>
           </div>
-        </div>
-      </nav>
-    </header>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <div class= "site-wrap">
-    <div class = "first" id="resume">
-      <a href="Resume.pdf">Resume(PDF Version)</a>
-    </div>
-    <div id="res3">
-      <h2>objective</h2>
-      <p>To obtain an internship where I can enhance my technical skills, prepare for entry into the workforce, and fuel the continued advancement of technology.</p>
-    </div>
-    <div id="res4">
-      <h2>education</h2>
-      <ul>
-        <li>University of Florida -- Gainesville, FL</li>
-        <li>
-          <table class="date container-fluid">
-            <tr>
-              <td><strong>Major: Bachelor of Science in Digital Arts and Sciences</strong></td>
-              <td><strong>December 2016</strong></td>
-            </tr>
-          </table>
-        </li>
-        <li>Minor in Mathematics</li>
-        <li>Current GPA - 3.46/4.0</li>
-        <li id="blurb">“ The Digital Arts and Sciences (DAS) degree is a specialized program which integrates engineering and design: a core computer science curriculum with a special emphasis on human - centered computing.”<br>- UF Department of Computer and Information Science and Engineering</li>
-      </ul>
-    </div>
-    <div id="res3">
-      <h2>employment</h2>
-      <ul>
-        <li>
-          <table class="container-fluid">
-            <tr>
-              <td><strong>Presidential Wait Staff,</strong><em> Cacciatore Catering -- Gainesville, FL</em></td>
-              <td><strong>January 2014 - Present</strong></td>
-            </tr>
-          </table>
-        </li>
-        <li id="last_tidbit">Serve and assist highly influential and important patrons at official University of Florida functions</li>
-        <li>
-          <table class="container-fluid">
-            <tr>
-              <td><strong>Intern,</strong><em> WMB Architecture -- Lakeland, FL</em></td>
-              <td><strong>June 2015 - August 2015</strong></td>
-            </tr>
-          </table>
-        </li>
-        <li id="tidbit">Aided Marketing Coordinator with company website design and content as well as editing proposals</li>
-        <li id="last_tidbit">Worked with architects and designers to complete projects on time</li>
-        <li>
-          <table class="container-fluid">
-            <tr>
-              <td><strong>Imaging Specialist,</strong><em> DTI Global -- Tampa, FL</em></td>
-              <td><strong>Summer 2013/ 2014</strong></td>
-            </tr>
-          </table>
-        </li>
-        <li id="tidbit">Assisted in the organization and completion of various projects while on a deadline</li>
-      </ul>
-    </div>
-    <div id="res4">
-      <h2>extracurricular activities</h2>
-      <ul>
-        <li>
-          <table class="container-fluid">
-            <tr>
-              <td><strong>Member,</strong><em> Community Heath Service Corps</em></td>
-              <td><strong>August 2012 - Present</strong></td>
-            </tr>
-          </table>
-        </li>
-        <li id="last_tidbit">Help address health disparities while participating in campus outreach projects </li>
-        <li>
-          <table class="container-fluid">
-            <tr>
-              <td><strong>Mellophone Player,</strong><em> Gator Marching Band</em></td>
-              <td><strong>Fall Semesters of 2012 and 2013</strong></td>
-            </tr>
-          </table>
-        </li>
-        <li id="last_tidbit">Participated in various events acting as an ambassador to the University of Florida</li>
-        <li>
-          <table class="container-fluid">
-            <tr>
-              <td><strong>Design Chair,</strong><em> Employer Relations Ambassadors</em></td>
-              <td><strong>August 2015 – Present </strong></td>
-            </tr>
-          </table>
-        </li>
-        <li id="tidbit">Interact with and assist recruiters to facilitate productive events</li>
-        <li id="last_tidbit">Create logos, graphics and other images advertising the club and events</li>
-        <li>
-          <table class="container-fluid">
-            <tr>
-              <td><strong>Assistant Flight Software Developer,</strong><em> Center for High - Performance Reconfigurable Computing</em></td>
-              <td><strong>August 2014 – December 2014</strong></td>
-            </tr>
-          </table>
-        </li>
-        <li id="tidbit">Worked with NASA and other universities on the CHREC Space Processor project to design improved hardware/ software that can function effectively in space</li>
-      </ul>
-    </div>
-    <div id="res3">
-      <h2>relevant skills and courses</h2>
-      <ul>
-        <li id="tidbit">Fluent in Spanish</li>
-        <li id="tidbit">Proficient in Microsoft Office, Autodesk Maya, InkScape, Photoshop/ Illustrator, and Processing development environment</li>
-        <li id="tidbit">Math proficiency includes Calculus I-III, Differential Equations, Linear Algebra (In Progress: Numerical Analysis)</li>
-        <li id="tidbit">Proficient in Java and C++ programming languages -- Experience using C, MIPS Assembly and MATLAB</li>
-        <li id="last_tidbit">Certified SolidWorks Associate</li>
-        <li id="class"><strong>CEN3031 : Introduction to Software Engineering – </strong>Web app development using MEAN.js in an Agile/ Scrum environment</li>
-        <li id="class"><strong>EML2023 : Computer Aided Graphics and Design – </strong>Exposure to and certification in SolidWorks computer drafting software</li>
-        <li id="class"><strong>CAP3027 : Introduction to Digital Arts and Sciences – </strong>Graphics programing to develop Java GUIs</li>
-        <li id="class"><strong>DIG3525C: Design and Production – </strong>Basic graphic design elements and their application using Adobe Photoshop</li>
-      </ul>
-    </div>
-    <footer id="contact-section">
-      <h3>Contact Me</h3>
-      <div class="round-button">
-          <a href="mailto:madleigh12@ufl.edu" class="glyphicon glyphicon-envelope" alt="Email"></a>
+          <div class="res2">
+            <span class="name">EXTRACURRICULARS</span><br>
+            <p><strong>Founding Member,</strong> <em>Gainesville Women Coders</em>
+            <span class="date">January 2016 – Present</span></p>
+            <ul>
+              <li>Works as a Girls Who Code chapter to promote computer science studies in middle and high school girls</li>
+              <li>Organize and develop coding seminars and hackathons for youth in the Gainesville area</li>
+            </ul>
+            <p><strong>Member,</strong> <em>Women in Computer Science and Engineering</em>
+            <span class="date">August 2015 – Present</span></p>
+            <ul>
+              <li>Aids the development and advancement of women related fields by providing socials and academic/ professional resources</li>
+            </ul>
+            <p><strong>Marketing Director/ Design Chair,</strong> <em>Employer Relations Ambassadors</em>
+            <span class="date">August 2015 – Present</span></p>
+            <ul>
+              <li>Create logos, graphics and other images advertising the club and events</li>
+            </ul>
+            <p><strong>Member,</strong> <em>Community Health Service Corps</em>
+            <span class="date">August 2012 – May 2015</span></p>
+            <ul>
+              <li>Helped address health disparities while participating in campus outreach projects</li>
+            </ul>
+            <p><strong>Mellophone Player,</strong> <em>Gator Marching Band</em>
+            <span class="date">Fall Semesters of 2012 and 2013</span></p>
+            <ul>
+              <li>Participated in various events acting as an ambassador for the University of Florida</li>
+            </ul>
+
+            <p><strong>Assistant Flight Software Developer,</strong> <em>Center for High-Performance Reconfigurable Computing</em>
+            <span class="date">August 2014 – December 2014</span></p>
+            <ul>
+              <li>Worked with NASA and other universities on the CHREC Space Processor project to design improved hardware/ software that can function effectively in space</li>
+            </ul>
+          </div>
+          <div class="res1">
+            <span class="name">RELEVANT SKILLS AND COURSES</span><br>
+            <ul id="rsc">
+              <li>Fluent in Spanish</li>
+              <li>Proficient in Microsoft Office, Autodesk Maya, Photoshop, Illustrator, Processing and Unity</li>
+              <li>Experience in virtual reality, game development, MEAN-stack, and Agile/ Scrum methodology</li>
+              <li>Proficient in Java, C++, HTML/ CSS – Experience using C#, MIPS, MATLAB and Javascript/ jQuery</li>
+              <li>Certified SolidWorks Associate</li>
+            </ul>
+          </div>
+        </section>
       </div>
-      <div class="round-button">
-        <a href="tel:8633702034" class="glyphicon glyphicon-earphone" alt="Phone"></a>
-      </div>
-      </footer>
-    </div>
+    </section>
   </body>
 </html>
