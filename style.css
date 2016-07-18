@@ -21,13 +21,13 @@ p{
 }
 .nav-tab {
     float: left;
-    width: 10.8%;
+    width: 11%;
 }
 .nav-tab a {
     display: block;
     color: #888;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 3px;
     text-decoration: none;
     font-size: 1.3rem;
 }
@@ -74,6 +74,9 @@ p{
 }
 #resume .jumbotron{
     background-image: url('img/resume_overlay.png');
+}
+#sc .jumbotron{
+    background-image: url('img/sc_overlay.png');
 }
 #landing h2, h3 {
     position: absolute;
