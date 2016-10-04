@@ -1,6 +1,7 @@
 body {
     margin:0;
     font-family: Raleway, sans-serif;
+    font-size: 1.5rem;
 }
 p{
     font-size: 1.1rem;
@@ -53,6 +54,9 @@ p{
     min-height: 100vh;
     padding-top: 1rem;
     overflow: hidden;
+}
+.jumbotron p{
+    font-size: 1.5rem;
 }
 #landing .jumbotron {
     background-image: url('img/home.jpg');
@@ -127,7 +131,8 @@ p{
     background-color: rgba(180, 180, 155, 0.5);
 }
 #intro p{
-    font-size: 0.9rem;
+    font-size: 1.2rem;
+    font-style: italic;
     margin-left: 20vw;
     margin-right: 20vw; 
 }
@@ -140,6 +145,12 @@ p{
 .res1 p, .res2 p{
     margin-left: 3rem;
     margin-right: 3rem;
+    font-size: 1.5rem;
+}
+#quote{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 1.5rem;
 }
 .res1 table, .res2 table{
     margin-left: 3rem;
@@ -147,9 +158,6 @@ p{
     margin-top: -1rem;
     margin-bottom: -1rem;
     width: 100%;
-}
-#quote{
-    font-size: 0.9rem;
 }
 .date{
     float:right;
@@ -220,15 +228,15 @@ iframe{
     width:50%;
     height: 100%;
     text-align: center;
-    font-size: 1.0rem;
+    font-size: 1.5rem;
     padding-left: 2rem;
     padding-right: 2rem;
 }
 .cap p{
-    font-size: 1.0rem;
+    font-size: 1.4rem;
 }
 .name{
-    font-size: 1.5rem;
+    font-size: 2.0rem;
     font-weight: bold;
     text-decoration: overline underline;
 }
@@ -266,4 +274,17 @@ iframe{
 }
 a{
     color: #000033;
+}
+.InProg{
+    color:#990000;
+    text-decoration: underline overline;
+    font-weight: bold;
+}
+#classes{
+    margin-top: 1.5rem;
+    width: 40vw;
+    padding-bottom: 1.5rem;
+}
+#classes td:nth-child(1) {
+    font-weight: 600;
 }
