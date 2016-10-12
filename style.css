@@ -197,19 +197,11 @@ iframe{
     margin: auto;
     text-align: center;
 }
-.tdt img{
-    display: inline-block;
-    height: 7rem;
-    padding: 0.5rem;
-}
-.td img{
-    display: inline-block;
-    height: 15rem;
-    padding: 0.5rem;
-}
 .pic img{
     display: inline-block;
-    height: 18rem;
+    height: auto;
+    max-width: 40vw;
+    max-height: 18rem;
     padding: 1rem;
     text-align: center;
     margin-left: auto;
@@ -222,6 +214,10 @@ iframe{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+.miscpic img{
+    height: 10rem;
+    width: auto;
 }
 .cap{
     position: relative;
@@ -287,4 +283,7 @@ a{
 }
 #classes td:nth-child(1) {
     font-weight: 600;
+}
+#UFTYPE{
+
 }
