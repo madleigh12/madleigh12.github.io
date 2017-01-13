@@ -62,7 +62,7 @@ p{
     background-image: url('img/home.jpg');
 }
 #about .jumbotron {
-    background-image: url('img/about_overlay.png');
+    background-image: url('img/about_overlay.jpg');
 }
 #twoDee .jumbotron{
     background-image: url('img/twoDee_overlay.png');
@@ -96,14 +96,14 @@ p{
     font-weight: bold;
     font-size: 4rem;
     width:39.263%;
-    margin-left: 10%;
+    margin-left: 25%;
 }
 #landing h3 {
     color: #1C3146;
     font-size: 1.6rem;
-    width:43%;
-    margin-left: 53%;
-    margin-top: 41%;
+    width:27%;
+    margin-left: 49%;
+    margin-top: 32.5%;
 }
 .title{
     margin-top: -1rem;
