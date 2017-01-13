@@ -92,18 +92,18 @@ p{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80cecfce', endColorstr='#007db9e8',GradientType=1 );
 }
 #landing h2{
-    color: #EEE;
+    color: #1C3146;
     font-weight: bold;
     font-size: 4rem;
     width:39.263%;
-    margin-left: 4.5%;
+    margin-left: 10%;
 }
 #landing h3 {
-    color: #CCC;
-    font-size: 1.3rem;
-    margin-left: 40%;
+    color: #1C3146;
+    font-size: 1.6rem;
     width:43%;
-    margin-top: 30%;
+    margin-left: 53%;
+    margin-top: 41%;
 }
 .title{
     margin-top: -1rem;
