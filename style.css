@@ -132,13 +132,23 @@ p{
     padding-left:5%;
     padding-right:5%;
 }
-#intro{
+.intro{
     margin-top: 3.3rem;
     text-align: center;
     padding-bottom: 0.5rem;
     background-color: rgba(180, 180, 155, 0.5);
 }
-#intro p{
+#sc_logo{
+    text-align: center;
+    margin-top: 3%; 
+}
+#sc a{
+    padding-left: 13%; 
+}
+#trailer{
+    text-align: center;
+}
+.intro p{
     font-size: 1.2rem;
     font-style: italic;
     margin-left: 20vw;
