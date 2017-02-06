@@ -229,6 +229,16 @@ iframe{
     margin-left: auto;
     margin-right: auto;
 }
+#roto{
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+ #roto img{
+    text-align: center;
+    display: inline-block;
+    height: 15rem;
+}
 .pic3 img{
     display: inline-block;
     height: 9rem;
