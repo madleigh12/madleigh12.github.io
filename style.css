@@ -86,11 +86,8 @@ p{
     position: absolute;
     letter-spacing: 8px;
     padding: 5px 5px;
-    background: -moz-linear-gradient(left, rgba(125,185,232,0) 0%, rgba(204,204,204,0.7) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, rgba(125,185,232,0) 0%,rgba(204,204,204,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, rgba(125,185,232,0) 0%,rgba(204,204,204,0.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#b3cccccc',GradientType=1 ); /* IE6-9 */
 }
+
 #landing h2{
     color: #1C3146;
     font-weight: bold;
@@ -98,32 +95,54 @@ p{
     width:22%;
     margin-left: 10%;
     margin-top: 7%;
+    padding-left: 2rem;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#434c57+0,434c57+100&0.5+0,0.1+100 */
+    background: -moz-linear-gradient(left,  rgba(67,76,87,0.5) 0%, rgba(67,76,87,0.1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(67,76,87,0.5) 0%,rgba(67,76,87,0.1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(67,76,87,0.5) 0%,rgba(67,76,87,0.1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80434c57', endColorstr='#1a434c57',GradientType=1 ); /* IE6-9 */
 }
 #landing h3 {
     color: #1C3146;
     font-size: 1.6rem;
-    width:35%;
-    margin-left: 53%;
+    width:30%;
+    margin-left: 40%;
     margin-top: 26.5%;
-    -ms-transform: rotate(-4deg); /* IE 9 */
-    -webkit-transform: rotate(-4deg); /* Chrome, Safari, Opera */
-    transform: rotate(-4deg);
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dddddd+0,dddddd+100&0.8+0,0.5+100 */
+    background: -moz-linear-gradient(left,  rgba(221,221,221,0.8) 0%, rgba(221,221,221,0.5) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(221,221,221,0.8) 0%,rgba(221,221,221,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(221,221,221,0.8) 0%,rgba(221,221,221,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccdddddd', endColorstr='#80dddddd',GradientType=1 ); /* IE6-9 */
+
 }
 .title{
     margin-top: -1rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    background: -moz-linear-gradient(left, rgba(204,204,204,1) 0%, rgba(204,204,204,1) 50%, rgba(204,204,204,0) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, rgba(204,204,204,1) 0%,rgba(204,204,204,1) 50%,rgba(204,204,204,0) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, rgba(204,204,204,1) 0%,rgba(204,204,204,1) 50%,rgba(204,204,204,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#00cccccc',GradientType=1 );
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#434c57+0,434c57+100&0.5+0,0.1+100 */
+    background: -moz-linear-gradient(left,  rgba(67,76,87,0.5) 0%, rgba(67,76,87,0.1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(67,76,87,0.5) 0%,rgba(67,76,87,0.1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(67,76,87,0.5) 0%,rgba(67,76,87,0.1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80434c57', endColorstr='#1a434c57',GradientType=1 ); /* IE6-9 */
+}
+
+#profile{
+    margin-top:50rem;
+    display: block;
+    position: absolute;
+    border: 1px solid red;
+    background-color: #cccccc;
+}
+#profile img{
+    width: 33%;
+    float: right;
 }
 #about{
     position: relative;
 }
 #about img{
     margin-top: -1rem;
-    left: 0;
+    margin-left: 5rem;
     height:100vh;
     float: left;
     padding-right: 0.5rem;
@@ -131,6 +150,16 @@ p{
 #about_text{
     padding-left:5%;
     padding-right:5%;
+}
+#splash{
+    display: block;
+    border: 1px solid blue;
+}
+#about_intro{
+    margin-top: 3.3rem;
+    text-align: center;
+    
+    background-color: rgba(180, 180, 155, 0.5);
 }
 .intro{
     margin-top: 3.3rem;
