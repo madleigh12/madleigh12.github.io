@@ -275,6 +275,10 @@ iframe{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}.disclaimer{
+    font-size: 1.1rem;
+    font-style: italic;
+    color:#777;
 }
 .miscpic img{
     height: 10rem;
