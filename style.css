@@ -280,14 +280,10 @@ iframe{
     font-style: italic;
     color:#777;
 }
-.miscpic img{
-    height: 10rem;
-    width: auto;
-}
 .cap{
     position: relative;
     width:50%;
-    height: 100%;
+    height: 40vh;
     text-align: center;
     font-size: 1.5rem;
     padding-left: 2rem;
@@ -307,6 +303,7 @@ iframe{
 }
 .td, .tdt{
     width: 100vw;
+    height: 50vh;
 }
 .anim{
     width: 100vw;
