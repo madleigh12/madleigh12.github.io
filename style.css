@@ -62,13 +62,13 @@ p{
     background-image: url('img/home.jpg');
 }
 #about .jumbotron {
-    background-image: url('img/about_overlay.jpg');
+    background-image: url('img/tryout.png');
 }
 #twoDee .jumbotron{
     background-image: url('img/twoDee_overlay.png');
 }
 #threeDee .jumbotron{
-    background-image: url('img/threeDee_overlay.png');
+    background-image: url('img/threeDee_overlay.jpg');
 }
 #anim .jumbotron{
     background-image: url('img/anim_overlay.png');
@@ -93,27 +93,26 @@ p{
     font-weight: bold;
     font-size: 4rem;
     width:22%;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-top: 7%;
     padding-left: 2rem;
-        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#434c57+0,434c57+100&0.5+0,0.1+100 */
-    background: -moz-linear-gradient(left,  rgba(67,76,87,0.5) 0%, rgba(67,76,87,0.1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left,  rgba(67,76,87,0.5) 0%,rgba(67,76,87,0.1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right,  rgba(67,76,87,0.5) 0%,rgba(67,76,87,0.1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80434c57', endColorstr='#1a434c57',GradientType=1 ); /* IE6-9 */
-}
-#landing h3 {
-    color: #1C3146;
-    font-size: 1.6rem;
-    width:30%;
-    margin-left: 40%;
-    margin-top: 26.5%;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dddddd+0,dddddd+100&0.8+0,0.5+100 */
     background: -moz-linear-gradient(left,  rgba(221,221,221,0.8) 0%, rgba(221,221,221,0.5) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(left,  rgba(221,221,221,0.8) 0%,rgba(221,221,221,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to right,  rgba(221,221,221,0.8) 0%,rgba(221,221,221,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccdddddd', endColorstr='#80dddddd',GradientType=1 ); /* IE6-9 */
-
+}
+#landing h3 {
+    color: #1C3146;
+    font-size: 1.6rem;
+    width:30%;
+    margin-left: 65%;
+    margin-top: 30%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#434c57+0,434c57+100&0.5+0,0.1+100 */
+    background: -moz-linear-gradient(left,  rgba(67,76,87,0.5) 0%, rgba(67,76,87,0.1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(67,76,87,0.5) 0%,rgba(67,76,87,0.1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(67,76,87,0.5) 0%,rgba(67,76,87,0.1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80434c57', endColorstr='#1a434c57',GradientType=1 ); /* IE6-9 */
 }
 .title{
     margin-top: -1rem;
@@ -141,11 +140,12 @@ p{
     position: relative;
 }
 #about img{
-    margin-top: -1rem;
+    margin-top: auto;
     margin-left: 5rem;
     height:100vh;
     float: left;
     padding-right: 0.5rem;
+    height: 80vh;
 }
 #about_text{
     padding-left:5%;
